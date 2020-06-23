@@ -66,15 +66,32 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
-		border-bottom: dotted 1px;
 		color: _palette(accent1, bg);
 		text-decoration: none;
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent1, bg) !important;
+			color: _palette(accent2, bg) !important;
 			text-decoration: none;
 		}
+	}
+
+	a.link {
+		background:
+			linear-gradient(
+			to bottom, #FDF06F 0%,
+			#FDF06F 100%
+			);
+		background-position: 0 100%;
+		background-repeat: repeat-x;
+		background-size: 4px 4px;
+		color: _palette(accent2, bg);
+		text-decoration: none;
+		transition: background-size .2s;
+
+		&:hover {
+			background-size: 4px 50px;
+	}
 	}
 
 	strong, b {
@@ -816,7 +833,7 @@
 
 		&:hover {
 			border-color: _palette(accent1, bg);
-			color: _palette(accent1, bg) !important;
+			color: _palette(accent2, bg) !important;
 		}
 
 		&:active {
@@ -1501,3 +1518,11 @@
 		width: 100%;
 	}
 }
+
+		/* Added by me */
+
+span.emoji {
+	font-size: 60px;
+	vertical-align: middle;
+	line-height: 2;
+  }

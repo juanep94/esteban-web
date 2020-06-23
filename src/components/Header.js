@@ -6,16 +6,21 @@ import avatar from '../assets/images/avatar.jpg'
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
+      <a href="https://www.linkedin.com/in/juanep94/" className="image avatar">
         <img src={avatar} alt="" />
       </a>
       <h1>
-        <strong>I am Strata</strong>, a super simple
+        Hello,&nbsp;
         <br />
-        responsive site template freebie
+        <strong>I'm Juan Esteban</strong>&nbsp;
         <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+        UI/UX designer&nbsp;
+        <br />
+        based in Barcelona.
       </h1>
+      <h2>
+        <span class="emoji">👋</span>
+      </h2>
     </div>
     <Footer />
   </header>

@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Esteban Perez | UI/UX Designer'
+  const siteDescription = 'Personal portfolio of Juan Esteban Perez'
 
   return (
     <Layout>
@@ -19,48 +19,32 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
+            I'm currently working with a great team at <a class="link" href="https://www.aimsun.com/">Aimsun</a>, collaborating on improving the interface and user experience of their traffic modeling products.
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I have a master's degree in user interfaces and user experience design from <a class="link" href="https://esdi.es/en">ESDi (Escola Superior de Disseny)</a>. I tend to do my projects user-centered and with lean methodologies, using tools such as Scrum and Google Sprints because I feel that I achieve a much more agile process that brings much more value to the end users.</p>
+          <p>
+            Right now I'm making a selection of my best projects to make an exhibition of them below.
           </p>
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Learn More
+                Stay tuned!
               </a>
             </li>
           </ul>
         </section>
-
+    {/*
         <section id="two">
-          <h2>Recent Work</h2>
-
+          <h2>Projects</h2>
           <Gallery />
-
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul>
         </section>
-
+    */}
         <section id="three">
-          <h2>Get In Touch</h2>
+          <h2>Let's talk...</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            If you have any questions, or would simply like to talk to me, please drop me a line to get in touch.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
@@ -104,23 +88,21 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                  Barcelona, 08002
                   <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
+                  Spain
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  +34 633 15 74 55
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a class="link" href="mailto:juanestebanp94@gmail.com">juanestebanp94@gmail.com</a>
                 </li>
               </ul>
             </div>
